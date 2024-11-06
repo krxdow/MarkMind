@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmark Lister",
+  "version": "1.0",
+  "description": "Liste tous les marque-pages de l'utilisateur.",
+  "permissions": [
+    "bookmarks",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
+  }
+}

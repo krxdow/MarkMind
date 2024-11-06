@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+}
+
+a {
+    color: #0078d4;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour le compteur de marque-pages */
+#bookmark-count {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style pour l'indicateur de chargement */
+#loading-indicator {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style pour les éléments details et summary */
+details {
+    margin-top: 10px;
+}
+
+summary {
+    font-size: 14px;
+    color: #0078d4;
+    cursor: pointer;
+}
+
+summary:hover {
+    text-decoration: underline;
+}
+
+/* Style pour le contenu des informations méta */
+details p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
